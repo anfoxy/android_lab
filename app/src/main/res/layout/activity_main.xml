@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/l2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Лаб 2"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#C8F4FF"
+        app:layout_constraintBottom_toTopOf="@+id/l3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/l3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Лаб 3"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#C8F4FF"
+        app:layout_constraintBottom_toTopOf="@+id/l4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l2" />
+
+    <Button
+        android:id="@+id/l8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Лаб 8"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#C8F4FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l7" />
+
+    <Button
+        android:id="@+id/l7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Лаб 7"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#C8F4FF"
+        app:layout_constraintBottom_toTopOf="@+id/l8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l6" />
+
+    <Button
+        android:id="@+id/l6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Лаб 6"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#C8F4FF"
+        app:layout_constraintBottom_toTopOf="@+id/l7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l5" />
+
+    <Button
+        android:id="@+id/l5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Лаб 5"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#C8F4FF"
+        app:layout_constraintBottom_toTopOf="@+id/l6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l4" />
+
+
+    <Button
+        android:id="@+id/l4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:text="Лаб 4"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:backgroundTint="#C8F4FF"
+        app:layout_constraintBottom_toTopOf="@+id/l5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

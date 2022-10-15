@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lab_lb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab_lb"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".l2.Lab2"
+            android:exported="false" />
+        <activity
+            android:name=".l8.Lab8"
+            android:exported="false" />
+        <activity
+            android:name=".l7.Lab74"
+            android:exported="false" />
+        <activity
+            android:name=".l7.Lab73"
+            android:exported="false" />
+        <activity
+            android:name=".l7.Lab72"
+            android:exported="false" />
+        <activity
+            android:name=".l3.Lab32"
+            android:exported="false" />
+        <activity
+            android:name=".l3.Lab31"
+            android:exported="false" />
+        <activity
+            android:name=".l3.Lab3"
+            android:exported="false" />
+        <activity
+            android:name=".l7.Lab71"
+            android:exported="false" />
+        <activity
+            android:name=".l7.Lab7"
+            android:exported="false" />
+        <activity
+            android:name=".l6.Lab64"
+            android:exported="false" />
+        <activity
+            android:name=".l6.Lab63"
+            android:exported="false" />
+        <activity
+            android:name=".l6.Lab62"
+            android:exported="false" />
+        <activity
+            android:name=".l6.Lab61"
+            android:exported="false" />
+        <activity
+            android:name=".l6.Lab6"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab57"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab56"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab55"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab54"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab53"
+            android:exported="false" />
+        <activity
+            android:name=".l4.Lab4"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab52"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab51"
+            android:exported="false" />
+        <activity
+            android:name=".l5.Lab5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".l5.BCReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.lab_lb.inc" />
+                <action android:name="com.example.lab_lb.dec" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

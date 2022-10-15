@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab_lb</string>
+
+    <string-array name="strList">
+        <item>КРАСНЫЙ</item>
+        <item>ЗЕЛЕНЫЙ</item>
+        <item>СИНИЙ</item>
+        <item>БЕЛЫЙ</item>
+        <item>ЧЕРНЫЙ</item>
+    </string-array>
+</resources>
